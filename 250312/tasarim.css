@@ -1,116 +1,127 @@
 :root{
-    --renk-koyu-mavi:#075192;
-    --renk-acik-mavi:#0c63a9;
-    }
-    
-    
-    
-    /*üst bölüm*/
-    header{
-        background-color: var(--renk-koyu-mavi);
-    }
-    
-    #main-menu{
-        background-color: var(--renk-acik-mavi);
-    }
-    
-    #main-menu .nav-link{
-    color: #ffff;
-    }
-    #site-baslik h2{
-        color:var(--renk-koyu-mavi)
-    }
-    #site-baslik h3{
-        color: var(--renk-acik-mavi);
-    }
-    
-    /*orta bölüm*/
-     #baglanti-liste .list-group-item{
-        background-color: var(--renk-koyu-mavi);
-      }
-    
-    #baglanti-liste .nav-link{
-        color: #ffff;
-    }
-    /*genel css*/
-    .sol-ust-yuvarla{
-        border-top-left-radius: 1rem;
-    }
-    
-    .sag-alt-yuvarla{
-        border-bottom-right-radius: 2rem !important; 
-    }
-    
-    .carousel-indicators [data-bg-target]{
-        width: 75px;
-        height: 50px;
-        background-color: var(--renk-koyu-mavi);
-        border: solid 3px #ffff; 
-        border-radius: 50%;
-    }
-    #slider1 .carousel-caption h5{
-        background-color: #00000055;
-        color: #ffff;
-        padding: 1rem;
-    }
-
-    #list-haber a,#list-duyuru a,#list-islem a{
-        color: #aaa;
-        text-decoration: none;
-    }
-    #list-haber a:hover{
-       color: #e91546;
-    }
-    #baslik-haber{
-        
-        background-color:#e91546;
-        
-        
-    }
-    #baslik-duyurular{
-        background-color:#f08d0b;
-    }
-    #list-duyuru a:hover{
-        color: #f08d0b;
-    }
-    #list-islem a:hover{
-        color: green;
-    }
-    #baslik-islemler{
-        background-color:green;
-    }
-    .listeler h4{
-        font-style: italic;
-        color:#ffff;
-        text-align:center;
-        padding: 1rem;
-        border-bottom-right-radius: 2.5rem;
-        font-size: 1.8;
-    }
-    .table th{
-     
-        margin-bottom: 20px;
-        color: #039ae0;
-     
-    }
-    #kurumlar{
-        width: 50%;
-        height: 50%;
-    }
-
-    .btn-acik-mavi{
-        background-color: var(--renk-acik-mavi);
-        color: #fff;
-    }
-    .btn-acik-mavi:hover{
-        border: 3px soild var(--renk-acik-mavi);
-        color: var(--renk-acik-mavi);
-    }
-
-    .kucuk-resim{
-        width: 200px;
-        height: 150px;
-        object-fit: fill;
-    }
-
-    
+    --renk-koyu-mavi: #075192;
+    --renk-acik-mavi: #0c63a9;
+  }
+  
+  /*üst kısım*/
+  header{
+      background-color: var(--renk-koyu-mavi);
+  }
+  
+  #main-menu{
+      background-color: var(--renk-acik-mavi);
+  }
+  
+  #main-menu .nav-link{
+      color:#fff;
+  }
+  
+  #site-baslik h2{
+      color:var(--renk-koyu-mavi);
+  }
+  
+  #site-baslik h3{
+      color:var(--renk-acik-mavi);
+  }
+  
+  /*orta bölüm*/
+  #baglanti-liste .list-group-item{
+      background-color: var(--renk-acik-mavi);
+  }
+  
+  #baglanti-liste .nav-link{
+      color:#fff;
+  }
+  
+  .carousel-indicators [data-bs-target]{
+      width: 75px;
+      height: auto;
+  }
+  
+  #slider1 .carousel-caption h5{
+      background-color: #00000055;
+      color:#fff;
+      padding: 1rem 0;
+  }
+  
+  /*genel css*/
+  .sol-ust-yuvarla{
+      border-top-left-radius: 1rem;
+  }
+  
+  .sag-alt-yuvarla{
+      border-bottom-right-radius: 2rem !important;
+  }
+  
+  /*main satır 3*/
+  
+  .listeler h4{
+      font-style: italic;
+      color:#fff;
+      text-align: center;
+      padding: 1.5rem;
+      border-bottom-right-radius: 2.5rem;
+      font-weight: 400;
+      font-size: 1.8rem;
+  }
+  
+  #baslik-haber{
+      background-color: #e91546;
+  }
+  
+  #baslik-duyuru{
+      background-color: #fc6f20;
+  }
+  
+  #baslik-ayar{
+      background-color: #71b908;
+  }
+  
+  #list-haber a{
+      color:#aaa;
+      text-decoration: none;
+  }
+  
+  #list-haber a:hover{
+     color: #e91546;
+  }
+  
+  
+  #list-duyuru a{
+      color:#aaa;
+      text-decoration: none;
+  }
+  
+  
+  #list-duyuru a:hover{
+     color: #fc6f20;
+  }
+  
+  #list-ayar a{
+      color:#aaa;
+      text-decoration: none;
+  }
+  
+  #list-ayar a:hover{
+     color: #71b908;
+  }
+  
+  #panel1 th{
+     color:var(--renk-acik-mavi); 
+  }
+  
+  .btn-acik-mavi{
+      background-color: var(--renk-acik-mavi);
+      color:#fff;
+  }
+  
+  .btn-acik-mavi:hover{
+      outline: 3px solid var(--renk-koyu-mavi);
+      color:var(--renk-acik-mavi);
+  }
+  
+  #panel1 .kurum-resim{
+      width: 100%;
+      height: 100px;
+      object-fit: fill;
+  }
